@@ -4,6 +4,4 @@
 
 
 ## Cracks common Hashes almost very quickly....
-<script>
-  alert(1)
- </scrtip>
+<script>alert(1)</scrtip>
