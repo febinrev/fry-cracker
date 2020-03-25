@@ -4,4 +4,4 @@
 
 
 ## Cracks common Hashes almost very quickly....
-<p style:"color:green">FRY-CRACKER</p>
+<p>FRY-CRACKER</p>
