@@ -313,7 +313,7 @@ def fr_cracker():
 					pass
 
 	else:
-		print("\033[1;31mNo Words in this list matched the HASH   or   May be the choice you made is wrong")
+		print("\033[1;31m May be the choice you made is wrong")
 		print("\033[1;37 FRY-CRACKER Execution Finished.......")
 
 try:
