@@ -7,7 +7,7 @@
 ## Cracks common Hashes almost very quickly....
 <p>FRY-CRACKER</p>
 
-##AVAILABE HASHES COULD BE CRACKED:
+## AVAILABE HASHES COULD BE CRACKED:
 
 [1] MD5
 
