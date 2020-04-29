@@ -8,10 +8,11 @@
 
 ### Usage:
 ----------------------------------------------------------------------------------------
- $ python3 -m pip install passlib hashlib readline
- $ python3 fry-cracker.py
+       
+       $ python3 -m pip install passlib hashlib readline
+       $ python3 fry-cracker.py
  
-     SELECT THE APPROPRIATE TYPE OF HASH AND A GOOD WORDLIST TO CRACK!
+    [ SELECT THE APPROPRIATE TYPE OF HASH AND A GOOD WORDLIST TO CRACK!]
 ---------------------------------------------------------------------------------------------
  
 ## AVAILABE HASHES COULD BE CRACKED:
