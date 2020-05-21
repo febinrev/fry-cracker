@@ -9,8 +9,25 @@
 ### Usage:
 ----------------------------------------------------------------------------------------
        
-       $ python3 -m pip install passlib hashlib readline
-       $ python3 fry-cracker.py
+       $ python3 -m pip install -r requirements.txt
+       $ python3 fry-cracker.py -i #for interactive mode
+       $ python3 fry-cracker.py -h #for help
+       
+     
+     usage: fry-cracker.py [-h] [-m HASHTYPE] [-H HASH] [-w WORDLIST] [-i] [-o]
+
+    Parse the input hash,wordlists etc.
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      -m HASHTYPE, --hash_alg HASHTYPE
+                        The Type of hash to be cracked (refer the available hashes --hashtypes)
+      -H HASH, --hash HASH  The actual hash to be cracked (paste the hash)
+      -w WORDLIST, --wordlist WORDLIST
+                        The actual path of the wordlist used to crack.
+      -i, --interactive     Interactive mode
+      -o, --hashtypes       To View the type of hashes and its unique id
+
  
     [ SELECT THE APPROPRIATE TYPE OF HASH AND A GOOD WORDLIST TO CRACK!]
 ---------------------------------------------------------------------------------------------
@@ -80,3 +97,5 @@
     [56] SCRAM
     [57] SCRYPT
     [58] WHIRLPOOL
+    [59] SHAKE_128
+    [60] HT_digest
