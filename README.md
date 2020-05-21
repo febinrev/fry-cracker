@@ -1,8 +1,6 @@
 # FRY-CRACKER
 
-### RAW HASH CRACKER....A simple ,handy tool for password/hash bruteforcing and cracking
- 
- A simple script for presentation purposes and quick raw hash cracking :)
+### RAW HASH CRACKER....A handy tool for password/hash bruteforcing and cracking (CPU BASED)
 
 ## Cracks common Hashes almost very quickly....
 
@@ -10,8 +8,10 @@
 ----------------------------------------------------------------------------------------
        
        $ python3 -m pip install -r requirements.txt
-       $ python3 fry-cracker.py -i #for interactive mode
-       $ python3 fry-cracker.py -h #for help
+       $ chmod +x fry-cracker
+       $ ./fry-cracker.py -i #for interactive mode
+       $ ./fry-cracker.py -h #for help
+       $ ./fry-cracker.py --hashtypes # to view the types of hashes can be cracked
        
      
      usage: fry-cracker.py [-h] [-m HASHTYPE] [-H HASH] [-w WORDLIST] [-i] [-o]
