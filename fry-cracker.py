@@ -875,7 +875,7 @@ def fr_cracker(hashtype,hashed,wordlist):
 try:
 
 	parser = argparse.ArgumentParser(description='Parse the input hash,wordlists etc.')
-	parser.add_argument('-m', "--hash_alg",dest='hashtype', action='store',default=1,help='The Type of hash to be cracked (refer the available hashes --hashtypes)')
+	parser.add_argument('-m', "--hash_alg",dest='hashtype', action='store',default=1,help='The ID of Type of hash to be cracked (refer the available hashes --hashtypes)')
 	parser.add_argument('-H', "--hash",dest='hash', action='store',help='The actual hash to be cracked (paste the hash)')
 	parser.add_argument('-w', "--wordlist",dest='wordlist', action='store', default="passwords.txt",help='The actual path of the wordlist used to crack.')
 	parser.add_argument('-i',"--interactive", dest='interactive', action='store_true',help='Interactive mode')
