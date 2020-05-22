@@ -21,7 +21,7 @@
     optional arguments:
       -h, --help            show this help message and exit
       -m HASHTYPE, --hash_alg HASHTYPE
-                        The Type of hash to be cracked (refer the available hashes --hashtypes)
+                        The ID of Type of hash to be cracked (refer the available hashes --hashtypes)
       -H HASH, --hash HASH  The actual hash to be cracked (paste the hash)
       -w WORDLIST, --wordlist WORDLIST
                         The actual path of the wordlist used to crack.
