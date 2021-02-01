@@ -1,6 +1,6 @@
 # FRY-CRACKER
 
-### RAW HASH CRACKER....A handy tool for password/hash bruteforcing and cracking (CPU BASED)
+### RAW HASH CRACKER....A handy tool for password hash cracking using dictionary attack technique. (CPU BASED)
 
 ## Cracks common Hashes almost very quickly....
 
